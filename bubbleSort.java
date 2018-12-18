@@ -1,6 +1,6 @@
 public static void maopao(int[] a) {
     int l = a.length;
-    while (l > 0) {
+    while (l > 1) {
         for (int i = 0; i < l - 1; i++) {
             if (a[i] > a[i + 1]) {
                 int temp = a[i];
